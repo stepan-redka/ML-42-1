@@ -36,6 +36,7 @@ htmlcov/
 # Large downloaded or generated resources
 output/
 nltk_data/
+data/
 
 # Model artifacts
 *.pkl
@@ -61,3 +62,4 @@ __pypackages__/
 # If you later add environment files you want to keep, uncomment below
 !requirements.txt
 !req.txt
+
