@@ -1,0 +1,63 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+env/
+.venv/
+myvenv/
+
+# Packaging / distribution
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# Test / coverage artifacts
+.pytest_cache/
+.coverage*
+htmlcov/
+
+# Logs
+*.log
+
+# Data / artifacts (keep raw CSVs if they are source data; comment out if you want to track them)
+# Large downloaded or generated resources
+output/
+nltk_data/
+
+# Model artifacts
+*.pkl
+*.joblib
+*.h5
+*.onnx
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter runtime / metadata
+.local/
+
+# Ignore Python build metadata caches
+__pypackages__/
+
+# If you later add environment files you want to keep, uncomment below
+!requirements.txt
+!req.txt
