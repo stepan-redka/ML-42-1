@@ -61,5 +61,5 @@ __pypackages__/
 
 # If you later add environment files you want to keep, uncomment below
 !requirements.txt
-!req.txt
+req.txt
 
